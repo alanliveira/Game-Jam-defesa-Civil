@@ -8,12 +8,14 @@ public class Player : MonoBehaviour
     public float velocidadeCorrida = 10;
     public float velocidadeAndar = 5;
     public Camera cameraPlayer;
+
+    public GameObject playerModel;
     private Animator anim;
     private Rigidbody rb;
 
     void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = playerModel.GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
     }
 
