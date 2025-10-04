@@ -52,13 +52,13 @@ public class IsoPlayer : MonoBehaviour
             }
 
             // animações
-            anim.SetBool("walk", true);
-            anim.SetBool("run", isRunning);
+            // anim.SetBool("walk", true);
+            // anim.SetBool("run", isRunning);
         }
         else
         {
-            anim.SetBool("walk", false);
-            anim.SetBool("run", false);
+            // anim.SetBool("walk", false);
+            // anim.SetBool("run", false);
         }
     }
 }

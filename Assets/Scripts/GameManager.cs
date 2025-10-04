@@ -15,6 +15,5 @@ public class GameManager : MonoBehaviour
         panicBar.size = 1 - porcentPanic;
 
         infoText.text = $"{porcentPanic * 100:F0}%";
-
     }
 }
